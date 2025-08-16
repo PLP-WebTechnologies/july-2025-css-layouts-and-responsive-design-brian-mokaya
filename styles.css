@@ -1,4 +1,4 @@
-/* Reset for consistent box model */
+
 * {
     margin: 0;
     padding: 0;
@@ -133,17 +133,16 @@ footer {
     margin-top: 20px;
 }
 
-/* Mobile-first media queries */
 
 /* Tablet (min-width: 600px) */
 @media (max-width: 768px) {
     .main-grid {
-        grid-template-columns: 1fr; /* Stack content and sidebar */
+        grid-template-columns: 1fr;
         gap: 15px;
     }
 
     .card {
-        flex: 1 1 45%; /* Two cards per row */
+        flex: 1 1 45%;
     }
 
     .sidebar {
@@ -159,11 +158,11 @@ footer {
     }
 
     .card-container {
-        flex-direction: column; /* Stack cards vertically */
+        flex-direction: column;
     }
 
     .card {
-        flex: 1 1 100%; /* Full width for cards */
+        flex: 1 1 100%;
     }
 
     .nav-links {
